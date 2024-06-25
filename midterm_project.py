@@ -28,19 +28,19 @@ def create_items_json(orders):
             items[item_name]["orders"] += 1
     return items
 
-orders_file = "example_orders.json"
+orders_file = "D:\Python\is601\midterm_project\example_orders.json"
 
 # Read the orders from the JSON file
 orders = read_json(orders_file)
 
 # Create customers.json
 customers = create_customers_json(orders)
-with open('customers.json', 'w') as file:
+with open('D:\Python\is601\midterm_project\customers.json', 'w') as file:
     json.dump(customers, file, indent=4)
 
 # Create items.json
 items = create_items_json(orders)
-with open('items.json', 'w') as file:
+with open('D:\Python\is601\midterm_project\items.json', 'w') as file:
     json.dump(items, file, indent=4)
 
     print("Files created successfully.")
