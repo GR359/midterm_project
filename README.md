@@ -18,7 +18,7 @@ This script processes JSON data from a file containing order details. It generat
 ## Setup
 1. Ensure Python 3.x is installed on your system.
 2. Place the script in a project directory.
-3. Ensure the JSON file with orders (`example_orders.json`) is placed in the correct directory as specified in the script (`D:\Python\is601\midterm_project`).
+3. Ensure the JSON file with orders (`example_orders.json`) is placed in the correct directory as specified in the script (`D:\Python\is601\midterm_project`) or you can change the directory according to your configuration.
 
 ## Running the Script
 To run the script, navigate to the directory containing the script and execute the following command in the terminal:
